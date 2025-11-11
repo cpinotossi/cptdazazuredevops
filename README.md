@@ -2,6 +2,8 @@
 
 ## Azure DevOps Prerequisites
 
+[How we implemented Azure DevOps with Terraform](docs/AZURE_DEVOPS_MODULE_EXPLAINED.md)
+
 When you first create an Azure DevOps organization, it will not have any Microsoft-hosted agents available. If you intend to use Microsoft-hosted agents, you must either license your org or request a free pipeline.
 
 1. Setup billing for your organization: [Set up billing for your organization](https://learn.microsoft.com/azure/devops/organizations/billing/set-up-billing-for-your-organization-vs?view=azure-devops)
