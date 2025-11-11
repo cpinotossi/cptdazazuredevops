@@ -58,6 +58,14 @@ terraform destroy -auto-approve
 
 ~~~powershell
 $repoName="cptdazazuredevops"
+git init
 # create gh repo public
-gh 
+gh repo create $repoName --public
+# add remote origin
+git remote add origin https://github.com/cpinotossi/$repoName.git
+git remote -v
+git push --set-upstream origin main
+git add .
+git commit -m "initial commit"
+git push origin main
 ~~~
