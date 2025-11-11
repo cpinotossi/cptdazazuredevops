@@ -1,0 +1,138 @@
+# ============================================================================
+# Terraform
+# ============================================================================
+
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude all .tfvars files, which are likely to contain sensitive data
+# such as password, private keys, and other secrets. These should not be
+# part of version control as they are data points which are potentially
+# sensitive and subject to change depending on the environment.
+*.tfvars
+*.tfvars.json
+
+# Ignore override files as they are usually used to override resources
+# locally and so are not checked in
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# Terraform plan files
+*.tfplan
+tfplan
+*.tfplan.*
+
+# Terraform lock file (comment out if you want to commit it)
+.terraform.lock.hcl
+
+# ============================================================================
+# Azure DevOps / Sensitive Data
+# ============================================================================
+
+# Personal Access Tokens and secrets
+*.pat
+secrets.txt
+secrets.json
+
+# ============================================================================
+# IDE / Editor
+# ============================================================================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# JetBrains IDEs (IntelliJ, PyCharm, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ============================================================================
+# Operating System
+# ============================================================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.directory
+
+# ============================================================================
+# Logs and Temporary Files
+# ============================================================================
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# ============================================================================
+# Backup and Archive Files
+# ============================================================================
+
+*.backup
+*.old
+*.orig
+
+# ============================================================================
+# Documentation Build Artifacts (if using tools like Sphinx, MkDocs)
+# ============================================================================
+
+docs/_build/
+site/
+
+# ============================================================================
+# Miscellaneous
+# ============================================================================
+
+# Environment variables
+.env
+.env.*
+
+# Cache directories
+.cache/
+__pycache__/
+*.pyc
+
+# Archived/misc folder
+misc/
+archive/
